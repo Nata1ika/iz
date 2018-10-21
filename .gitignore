@@ -3,3 +3,5 @@ iz_unity3d/Temp/
 iz_unity3d/iz_unity3d.sln
 iz_unity3d/Assembly-CSharp.csproj
 iz_unity3d/Assembly-CSharp-Editor.csproj
+iz_unity3d/.vs/
+iz_unity3d/obj/Debug/
