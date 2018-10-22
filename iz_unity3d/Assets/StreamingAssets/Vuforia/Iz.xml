@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="marker_video" size="100.000000 70.217728" />
     <ImageTarget name="marker_model" size="100.000000 61.085972" />
-    <ImageTarget name="marker_video" size="100.000000 72.144844" />
   </Tracking>
 </QCARConfig>
