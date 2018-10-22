@@ -189,7 +189,7 @@ MonoBehaviour:
   _camera: {fileID: 116557364}
   _obj: {fileID: 91677286}
   _minScale: 1
-  _maxScale: 12
+  _maxScale: 20
   _koef: 0.1
 --- !u!1001 &116557363
 Prefab:
