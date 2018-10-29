@@ -5,10 +5,11 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 400000}
-  - 114: {fileID: 11400000}
+  - component: {fileID: 400000}
+  - component: {fileID: 11400000}
+  - component: {fileID: 114711085281724292}
   m_Layer: 0
   m_Name: CloudRecognition
   m_TagString: Untagged
@@ -28,6 +29,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -39,10 +41,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7dbadfab14e9164698b09c800ede694, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AccessKey: 
-  SecretKey: 
-  ScanlineColor: {r: 1, g: 1, b: 1, a: 1}
-  FeaturePointColor: {r: .426999986, g: .987999976, b: .286000013, a: 1}
+  AccessKey: da87d9c9790e7f34534e3e3cf44eabd99832cf18
+  SecretKey: 7d6388ad28f0698e11409366462fb67f9155c98b
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
@@ -58,3 +58,15 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 100000}
   m_IsPrefabParent: 1
+--- !u!114 &114711085281724292
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70206d67adc5b854787da66aa0087a43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ImageTargetTemplate: {fileID: 0}
